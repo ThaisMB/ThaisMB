@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thaís de Mendonça Barbosa</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --spacing-default: .8rem;
+        }
+
+        * {
+            border: 0;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            min-height: 100vh;
+            width: 100vw;
+        }
+
+        body {
+            display: grid;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            grid-template-columns: 33% 1fr;
+            grid-template-rows: auto 1fr;
+        }
+
+        body > section {
+            padding: var(--spacing-default);
+        }
+
+        body > section > section:first-child > h1:first-child {
+            margin-top: 0;
+        }
+        
+        body > section:first-of-type {
+            background-color: #F2F8F1;
+        }
+
+        a {
+            color: #00a2ff;
+            text-decoration: none;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        dt:not(:first-of-type) {
+            margin-top: var(--spacing-default);
+        }
+
+        h1, h2, header {
+            text-transform: uppercase;
+        }
+
+        h1, h2 {
+            font-family: 'Open Sans Condensed', sans-serif;
+            margin-top: var(--spacing-default);
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-bottom: 0.2rem;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+        }
+
+        header {
+            align-items: center;
+            background-color: #333330;
+            display: grid;
+            grid-column: 1 / 3;
+            grid-template-columns: 25% 1fr;
+            grid-template-rows: auto auto;
+            justify-items: center;
+            padding: var(--spacing-default);
+            z-index: 10; /* corrige defeito de impressão */
+        }
+
+        header > h1, header > h2 {
+            font-family: 'Exo', sans-serif;
+            margin: 0;
+        }
+
+        header > h1 {
+            align-self: flex-end;
+            color: #C2DDB9;
+            font-size: 4rem;
+        }
+
+        header > h2 {
+            align-self: flex-start;
+            color: #bbb
+        }
+
+        header .foto {
+            background-image: url("eu.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            border-radius: 100%;
+            grid-row: 1 / 3;
+            height: 9rem;
+            width: 9rem;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .company-and-period {
+            color: #888;
+            display: block;
+            font-style: italic;
+            margin-bottom: .2rem;
+        }
+
+        .company-and-period + ul {
+            list-style-type: square;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="foto"></div>
+        <h1>Thaís Barbosa</h1>
+        <h2>Desenvolvedora Júnior</h2>
+    </header>
+    <section>
+        <section>
+            <h1>Objetivo profissional</h1>
+            <p>Desenvolvedora Júnior Front-end na POSSIBLE</p>
+        </section>
+        <section>
+            <h1>Resumo profisional</h1>
+            <p>
+                Sou uma profissional em transição de carreira.
+                Estou estudando através de plataformas de ensino tecnologias como Python, JavaScript, HTML, CSS e JAVA.
+                Possuo experiências com trabalho em equipe, atendimento ao público, utilização de sistemas internos para inserção de informações e negociação de prazos de entrega.
+                Gosto de aprender e criar coisas novas, ler romances e meditar.
+                Sou responsável e dedicada e busco uma oportunidade para conseguir meu primeiro emprego na área de tecnologia.
+            </p>
+        </section>
+        <section>
+            <h1>Formação acadêmica</h1>
+            <dl>
+                <dt>Universidade Estadual do Paraná (UNESPAR)</dt>
+                <dd>Bacharel em Administração de Empresas<br>2015 - 2018</dd>
+                <dt>Universidade Estadual do Paraná (UNESPAR)</dt>
+                <dd>Bacharel em Ciências Biológicas<br>2008 - 2011</dd>
+            </dl>
+        </section>
+        <section>
+            <h1>Idiomas e ferramentas</h1>
+            <ul>
+                <li>Inglês intermediário</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Visual Studio Code</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Informações de contato</h1>
+            (41) 99639-5967<br>
+            thaismb26@gmail.com<br>
+            <a href="https://www.linkedin.com/in/thaismbarbosa" target="_blank">linkedin.com/in/thaismbarbosa</a><br>
+            <a href="https://github.com/ThaisMB" target="_blank">github.com/ThaisMB</a><br>
+            Curitiba - PR
+        </section>
+    </section>
+    <section>
+        <section>
+            <h1>Cursos</h1>
+            <ul>
+                <li>Algoritmos - CURSO EM VÍDEO | 2021</li>
+                <li>Python, mundos 1 a 3 - CURSO EM VÍDEO | 2021</li>
+                <li>HTML5 e CSS3, parte 1 de 5 - CURSO EM VÍDEO | 2021</li>
+                <li>Javascript - CURSO EM VÍDEO | 2021</li>
+                <li>MySQL - CURSO EM VÍDEO | 2021</li>
+                <li>Lógica de programação 1 e 2 - ALURA | 2021</li>
+                <li>HTML5 e CSS3, partes 1 a 4 - ALURA | 2021</li>
+                <li>CSS Grid: Simplificando layouts - ALURA | 2021</li>
+                <li>Flexbox: Posicione elementos na tela - ALURA | 2021</li>
+                <li>Javascript: Primeiros passos com a linguagem - ALURA | 2021</li>
+                <li>Javascript: Programando na linguagem da web - ALURA | 2021</li>
+                <li>Javascript: Programando com orientação a objetos - ALURA | 2021</li>
+                <li>Jogos clássicos, partes 1 e 2 - ALURA | 2021</li>
+                <li>HTTP: Entendendo a web por baixo dos panos - ALURA | 2021</li>
+                <li>Git e GitHub: Controle e compartilhe seu código</li>
+                <li>Java JRE e JDK: Escreva o seu primeiro código com Eclipse - ALURA | 2021</li>
+                <li>Java OO: Introdução à orientação a objetos - ALURA | 2021</li>
+                <li>Arquitetura de computadores: Como seu programa funciona - ALURA | 2021</li>
+                <li>Projetos ágeis com SCRUM - DIO | 2021</li>
+                <li>Figma: Design visual de um site mobile - ALURA | 2021</li>
+                <li>Acessibilidade web: Introdução, partes 1 e 2 - ALURA | 2021</li>
+                <li>Aprenda o que são estruturas de dados e algoritmos - DIO | 2021</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Experiência profissional</h1>
+            <h2>Aprendiz em desenvolvimento web</h2>
+            <span class="company-and-period">Me Ajuda Dev: Projeto GreenWallet (Pro Bono) | Abril de 2021 - Atualmente</span>
+            <ul>
+                <li>Desenvolvimento do Back-End Java com Spring Boot, para criação de API de gestão de despesas</li>
+                <li>Desenvolvimento do Front-End com HTML, CSS, Javascript e VueJs</li>
+                <li>Ferramentas utilizadas: Git, GitHub, Visual Studio Code, Intellij e NodeJS</li>
+            </ul>
+            <h2>Agente de pesquisa e mapeamento</h2>
+            <span class="company-and-period">IBGE | Junho de 2017 - Junho de 2020</span>
+            <ul>
+                <li>Coletar dados através de entrevistas, documentos e sistemas dos TJ's para pesquisas sociais</li>
+                <li>Inserção e tratamento de dados nos sistemas do IBGE</li>
+                <li>Organização do trabalho da equipe através de ferramentas administrativas</li>
+                <li>Abordagem de informantes e negociação de entrega de pesquisas por telefone</li>
+            </ul>
+            <h2>Auxiliar administrativo</h2>
+            <span class="company-and-period">MAPA | Fevereiro de 2017 - Maio de 2017</span>
+            <ul>
+                <li>Atendimento e recepção de documentos de importação e exportação</li>
+                <li>Auxílio na resolução de problemas para realização correta de agendamentos e cadastro de exportadores (orientação de despachantes)</li>
+                <li>Agendamento de fiscalização e redação de certificados de fiscalização fitossanitária</li>
+                <li>Melhoria na organização e atendimento com aplicação de princípios administrativos</li>
+            </ul>
+            <h2>Agente de informações turísticas</h2>
+            <span class="company-and-period">FUMTUR Paranaguá | Novembro de 2014 - Julho de 2016</span>
+            <ul>
+                <li>Atendimento ao público (brasileiros e estrangeiros)</li>
+            </ul>
+        </section>
+    </section>
+</body>
+</html>
