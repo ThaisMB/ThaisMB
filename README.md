@@ -3,7 +3,7 @@
 🔭 I’m currently working as development apprentice on a project called "Me Ajuda Dev" (something like "Help Me Dev") where experienced developers help people who are beginning in the IT area and need some experience at development work.
 
 🌱 I’m currently learning
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![HTML](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
 <!--
 **ThaisMB/ThaisMB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
